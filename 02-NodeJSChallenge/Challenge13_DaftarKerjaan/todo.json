@@ -1,0 +1,27 @@
+[
+   {
+      "status": "complete",
+      "task": "mandi",
+      "tags": "shubuh"
+   },
+   {
+      "status": "complete",
+      "task": "sholat",
+      "tags": "shubuh,dhuhur,ashar"
+   },
+   {
+      "status": "uncomplete",
+      "task": "coding",
+      "tags": "pms, nodeJS"
+   },
+   {
+      "status": "complete",
+      "task": "saya mau pergi ke pasar",
+      "tags": "beli,sayur"
+   },
+   {
+      "status": "uncomplete",
+      "task": "memasak",
+      "tags": "masak tahu"
+   }
+]
