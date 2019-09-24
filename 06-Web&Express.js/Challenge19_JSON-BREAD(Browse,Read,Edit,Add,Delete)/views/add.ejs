@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add data.json</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container" style="margin-top: 30px">
+        <h1>Form Tambah</h1>
+        <form action="" method="POST">
+            <div class="form-group row">
+                <label for="string" class="col-sm-2 col-form-label">String</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="string" id="string" placeholder="String">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="integer" class="col-sm-2 col-form-label">Integer</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="integer" id="integer" placeholder="Integer">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="float" class="col-sm-2 col-form-label">Float</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="float" id="float" placeholder="Float">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="date" class="col-sm-2 col-form-label">Date</label>
+                <div class="col-sm-10">
+                    <input type="datetime" class="form-control" name="date" id="date" placeholder="Date">
+                </div>
+            </div>
+            <div class="form-group row" class="input-group">
+                <label for="boolean" class="col-sm-2 col-form-label">Boolean</label>
+                <div class="col-sm-10">
+                    <select class="custom-select" name="boolean" id="boolean">
+                        <option selected>Choose the Boolean ...</option>
+                        <option value="true">true</option>
+                        <option value="false">false</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" name="button" class="btn btn-primary">Save</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
