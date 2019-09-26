@@ -26,11 +26,6 @@ app.get('/add', (req, res) => {
     res.render ('add');
 });
 
-// get edit page
-app.get('/edit', (req, res) => {
-    res.render ('edit');
-});
-
 // post add page
 app.post('/add', (req, res) => {
     data.push({
